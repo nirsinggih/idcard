@@ -1,0 +1,28 @@
+[08-Jun-2025 13:38:37 UTC] PHP Warning:  move_uploaded_file(uploads/6845925d968bf_99999.jpg): failed to open stream: No such file or directory in /home/aeddggfw/kkg.pembatik.web.id/idcard-osn/generate.php on line 11
+[08-Jun-2025 13:38:37 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpyEJf6v' to 'uploads/6845925d968bf_99999.jpg' in /home/aeddggfw/kkg.pembatik.web.id/idcard-osn/generate.php on line 11
+[08-Jun-2025 13:38:37 UTC] PHP Warning:  getimagesize(assets/background.jpg): failed to open stream: No such file or directory in /home/aeddggfw/kkg.pembatik.web.id/idcard-osn/fpdf/fpdf.php on line 1255
+[08-Jun-2025 13:38:37 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: assets/background.jpg in /home/aeddggfw/kkg.pembatik.web.id/idcard-osn/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/aeddggfw/kkg.pembatik.web.id/idcard-osn/fpdf/fpdf.php(1257): FPDF->Error('Missing or inco...')
+#1 /home/aeddggfw/kkg.pembatik.web.id/idcard-osn/fpdf/fpdf.php(890): FPDF->_parsejpg('assets/backgrou...')
+#2 /home/aeddggfw/kkg.pembatik.web.id/idcard-osn/generate.php(18): FPDF->Image('assets/backgrou...', 0, 0, 95, 124)
+#3 {main}
+  thrown in /home/aeddggfw/kkg.pembatik.web.id/idcard-osn/fpdf/fpdf.php on line 267
+[08-Jun-2025 13:38:43 UTC] PHP Warning:  move_uploaded_file(uploads/6845926393f50_99999.jpg): failed to open stream: No such file or directory in /home/aeddggfw/kkg.pembatik.web.id/idcard-osn/generate.php on line 11
+[08-Jun-2025 13:38:43 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpd8zzHh' to 'uploads/6845926393f50_99999.jpg' in /home/aeddggfw/kkg.pembatik.web.id/idcard-osn/generate.php on line 11
+[08-Jun-2025 13:38:43 UTC] PHP Warning:  getimagesize(assets/background.jpg): failed to open stream: No such file or directory in /home/aeddggfw/kkg.pembatik.web.id/idcard-osn/fpdf/fpdf.php on line 1255
+[08-Jun-2025 13:38:43 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: assets/background.jpg in /home/aeddggfw/kkg.pembatik.web.id/idcard-osn/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/aeddggfw/kkg.pembatik.web.id/idcard-osn/fpdf/fpdf.php(1257): FPDF->Error('Missing or inco...')
+#1 /home/aeddggfw/kkg.pembatik.web.id/idcard-osn/fpdf/fpdf.php(890): FPDF->_parsejpg('assets/backgrou...')
+#2 /home/aeddggfw/kkg.pembatik.web.id/idcard-osn/generate.php(18): FPDF->Image('assets/backgrou...', 0, 0, 95, 124)
+#3 {main}
+  thrown in /home/aeddggfw/kkg.pembatik.web.id/idcard-osn/fpdf/fpdf.php on line 267
+[08-Jun-2025 13:39:34 UTC] PHP Warning:  getimagesize(assets/background.jpg): failed to open stream: No such file or directory in /home/aeddggfw/kkg.pembatik.web.id/idcard-osn/fpdf/fpdf.php on line 1255
+[08-Jun-2025 13:39:34 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: assets/background.jpg in /home/aeddggfw/kkg.pembatik.web.id/idcard-osn/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/aeddggfw/kkg.pembatik.web.id/idcard-osn/fpdf/fpdf.php(1257): FPDF->Error('Missing or inco...')
+#1 /home/aeddggfw/kkg.pembatik.web.id/idcard-osn/fpdf/fpdf.php(890): FPDF->_parsejpg('assets/backgrou...')
+#2 /home/aeddggfw/kkg.pembatik.web.id/idcard-osn/generate.php(18): FPDF->Image('assets/backgrou...', 0, 0, 95, 124)
+#3 {main}
+  thrown in /home/aeddggfw/kkg.pembatik.web.id/idcard-osn/fpdf/fpdf.php on line 267
